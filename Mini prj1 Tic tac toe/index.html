@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 align="center">Tic-Tac-Toe</h1>
+
+    <div class="StartContainer" id="StartContainer">
+        <div class="players">
+
+            <div>
+                <label for="player1">Player 1 :</label>
+                <input type="text" id="player1" placeholder="Enter player 1 Name..." required>
+            </div>
+            
+            <div>
+                <label for="player2">Player 2 :</label>
+                <input type="text" id="player2" placeholder="Enter player 2 Name..." required>
+            </div>
+
+        </div>
+
+        <div class="selectSign">
+            <h1>Player 1 select Sign for Playing : </h1>
+
+            <div class="signBtns">
+                <button id="signX" class="button" value="X">X</button>
+                <button id="signY" class="button" value="O">O</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="msg" id="msg">
+        <h1 id="winner"></h1>
+        <button class="newGame" id="newGame" onclick="resetGame()">New Game</button>
+    </div>
+
+    <div class="gameContainer, hide" id="gameContainer">
+
+        <div class="player1">
+            <h1>player 1</h1>
+            <div class="playerSign" id="player1Sign"></div>
+            <div class="playerName" id="player1Name"></div>
+        </div>
+
+        <div class="gameArea">
+            <div class="boxes">
+
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+    
+            </div>
+    
+            <button id="reset-btn" class="reset-btn" onclick="resetGame()">
+                Reset Game
+            </button>
+        </div>
+
+        <div class="player1">
+            <h1>player 2</h1>
+            <div class="playerSign" id="player2Sign"></div>
+            <div class="playerName" id="player2Name"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

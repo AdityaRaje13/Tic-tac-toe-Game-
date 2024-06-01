@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.display{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.StartContainer{
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 80vh;
+}
+
+.players{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.signBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+h1{
+    color: rgb(236, 243, 181);
+    font-size: 55px;
+    margin: 20px 0px;
+}
+
+input{
+    padding: 15px 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(69, 69, 69);
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+label{
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    font-size: 30px;
+}
+
+.button{
+
+    height: 8rem;
+    width: 8rem;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+    color: rgb(193, 63, 63);
+    font-size: 6rem;
+    box-shadow: 5px 5px 10px rgb(66, 65, 65);
+    margin-top: 30px;
+}
+
+button:hover{
+
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+body{
+    background-color: teal;
+}
+
+.gameContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin: 30px 0px;
+}
+
+.boxes{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+    color: rgb(193, 63, 63);
+    font-size: 6rem;
+    box-shadow: 5px 5px 10px rgb(66, 65, 65);
+}
+
+.reset-btn{
+    background-color: black;
+    color: white;
+    padding: 13px 30px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.msg{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+}
+
+.newGame{
+    background-color: black;
+    color: white;
+    padding: 13px 30px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.gameArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.player1{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.player2{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.playerName{
+    color: rgb(72, 2, 2);
+    font-size: 40px;
+    text-align: center;
+}
+
+.playerSign{
+    color: rgb(4, 45, 75);
+    font-size: 20px;
+    text-align: center;
+}
